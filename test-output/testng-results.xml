@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42116" started-at="2018-04-14T12:45:37Z" finished-at="2018-04-14T12:46:19Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="SmokeTestBuild.validateLinks()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="validateLinks" class="Smoke.SmokeTestBuild"/>
+        <method signature="SmokeTestBuild.validateNavigations()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="validateNavigations" class="Smoke.SmokeTestBuild"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test1" duration-ms="42116" started-at="2018-04-14T12:45:37Z" finished-at="2018-04-14T12:46:19Z">
+      <class name="Smoke.SmokeTestBuild">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="startBrowser" is-config="true" duration-ms="9891" started-at="2018-04-14T18:15:37Z" finished-at="2018-04-14T18:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="startBrowser" is-config="true" duration-ms="7644" started-at="2018-04-14T18:15:37Z" finished-at="2018-04-14T18:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="validateLinks()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="validateLinks" duration-ms="23516" started-at="2018-04-14T18:15:44Z" finished-at="2018-04-14T18:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinks -->
+        <test-method status="PASS" signature="validateNavigations()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="validateNavigations" duration-ms="32098" started-at="2018-04-14T18:15:47Z" finished-at="2018-04-14T18:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigations -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="1837" started-at="2018-04-14T18:16:08Z" finished-at="2018-04-14T18:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Smoke.SmokeTestBuild@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="105" started-at="2018-04-14T18:16:19Z" finished-at="2018-04-14T18:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Smoke.SmokeTestBuild -->
+      <class name="Smoke.EndtoEnd">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="startBrowser" is-config="true" duration-ms="2629" started-at="2018-04-14T18:15:37Z" finished-at="2018-04-14T18:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="startBrowser" is-config="true" duration-ms="4889" started-at="2018-04-14T18:15:37Z" finished-at="2018-04-14T18:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="e2e()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="e2e" duration-ms="3071" started-at="2018-04-14T18:15:39Z" finished-at="2018-04-14T18:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2e -->
+        <test-method status="PASS" signature="e2e1()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="e2e1" duration-ms="10721" started-at="2018-04-14T18:15:42Z" finished-at="2018-04-14T18:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2e1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="11" started-at="2018-04-14T18:15:42Z" finished-at="2018-04-14T18:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Smoke.EndtoEnd@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="15" started-at="2018-04-14T18:15:52Z" finished-at="2018-04-14T18:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Smoke.EndtoEnd -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

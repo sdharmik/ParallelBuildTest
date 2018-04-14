@@ -1,0 +1,4 @@
+Smoke\EndtoEnd.class
+Sanity\SanityTestBuild.class
+Smoke\SmokeTestBuild.class
+Base\TestBase.class

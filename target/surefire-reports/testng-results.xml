@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SanitySuite" duration-ms="30740" started-at="2018-04-14T13:09:45Z" finished-at="2018-04-14T13:10:15Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="SanityTestBuild.courseCreation()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="courseCreation" class="Sanity.SanityTestBuild"/>
+        <method signature="SanityTestBuild.userCreated()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="userCreated" class="Sanity.SanityTestBuild"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Test" duration-ms="30740" started-at="2018-04-14T13:09:45Z" finished-at="2018-04-14T13:10:15Z">
+      <class name="Sanity.SanityTestBuild">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="startBrowser" is-config="true" duration-ms="2606" started-at="2018-04-14T18:39:45Z" finished-at="2018-04-14T18:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="startBrowser" is-config="true" duration-ms="4461" started-at="2018-04-14T18:39:45Z" finished-at="2018-04-14T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="courseCreation()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="courseCreation" duration-ms="17128" started-at="2018-04-14T18:39:47Z" finished-at="2018-04-14T18:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courseCreation -->
+        <test-method status="PASS" signature="userCreated()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="userCreated" duration-ms="26238" started-at="2018-04-14T18:39:49Z" finished-at="2018-04-14T18:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCreated -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="closeBrowser" is-config="true" duration-ms="28" started-at="2018-04-14T18:40:04Z" finished-at="2018-04-14T18:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Sanity.SanityTestBuild@13969fbe]" name="closeBrowser" is-config="true" duration-ms="9" started-at="2018-04-14T18:40:15Z" finished-at="2018-04-14T18:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Sanity.SanityTestBuild -->
+    </test> <!-- Test -->
+  </suite> <!-- SanitySuite -->
+</testng-results>
