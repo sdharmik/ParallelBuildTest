@@ -10,6 +10,7 @@ public class SmokeTestBuild extends TestBase{
 
 
 
+
 	
 	@Test(groups={"Smoke"})
 	public void validateNavigations(){
