@@ -6,7 +6,6 @@ import Base.TestBase;
 
 public class EndtoEnd extends TestBase{
 	
-	
 	@Test
 	public void e2e(){
 		getDriver().get("http://www.licindia.in");
